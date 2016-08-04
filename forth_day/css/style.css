@@ -1,0 +1,128 @@
+#div1{
+	width:100px;
+	height:100px;
+	margin-left: 50%;
+	margin-top: 20%;
+	background-color: red;
+	
+	
+	animation-name: rotate_and_move;
+	animation-duration: 2s;
+	animation-iteration-count: 3;
+	animation-direction:reverse;
+	animation-play-state: paused;
+
+}
+
+#div1:hover{
+	animation-play-state: running;
+
+}
+
+@keyframes rotate_and_move{
+
+	0%{
+		transform:rotate(0deg);
+	
+
+	}
+
+	20%{
+		width:20px;
+	}
+
+	50%{
+
+		transform:rotate(90deg);
+		background-color:pink;
+	
+	}
+
+	100%{
+
+		transform:rotate(-90deg);
+		
+
+	}
+}
+
+/*
+
+#div1:hover{
+	transform: matrix(1, -0.3, 0, 1, 0, 0);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+
+
+
+
+
+
+
+
+
+
+.top_navigation{
+	width:100%;
+	height:100px;
+	text-align: center;
+	position:fixed;
+	top:0px;
+	left:0px;
+	background-color:white;
+
+}
+
+.nav_links{
+	width:50%;
+	background-color:yellow; 
+	margin-left: auto;
+	margin-right: auto;
+	text-align:center;
+}
+
+.nav_links > li {
+	font-size:22px;
+	display:inline-block;
+	padding:15px;
+}
+
+.main_content{
+	height:1000px;
+	background-color:rgb(127,127,127);
+	margin-top: 100px;
+	margin-right:100px;
+	margin-left:100px;
+}
+
+.main_content: hover{
+	background-color: yellow
+}
+
+.intro_text{
+	width:50%
+	background-color:#ff2342;
+	display:inline-block;
+}*/
