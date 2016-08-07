@@ -23,21 +23,43 @@ h1{
 	line-height: 20px;
 }
 
-/*#contact{
-	width: 50%
-	height:500;
-	animation: moveit 2s infinite;
+#div_1{
+	width: 100%;
+	height:auto;
+	animation: rotateit 5s infinite;
+}
+
+@keyframes rotateit{
+
+0%{
+	transform:rotate(-20deg);
+}
+50%{
+	transform:rotate(20deg);
+}
+100%{
+	transform:rotate(-20deg);
+}
+}
+
+#div_2{
+	width: 100%
+	height: auto;
+	animation: moveit 5s infinite;
 }
 
 @keyframes moveit{
 
-0% {
-	margin-left:0px;
-
+0%{
+	transform:rotate(-20deg);
 }
-100%{margin-left:200px;
+50%{
+	transform:rotate(20deg);
 }
-}*/
+100%{
+	transform:rotate(-20deg);
+}
+}
 
 /* ref source link http://www.dynamicdrive.com/style/csslibrary/item/css_animated_underline_menu/ */
 
