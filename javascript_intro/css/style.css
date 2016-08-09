@@ -1,0 +1,9 @@
+#pop_up{
+	position:fixed;
+	background-color:black;
+	color:white;
+	width:50%;
+	height:50%;
+	top:10%;
+	left:10%;
+}
