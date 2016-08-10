@@ -1,0 +1,38 @@
+body{
+	background-color:black;
+	color:white;
+	font-size:30px;
+}
+
+header{
+	width:50%;
+	background-color: pink;
+	height: 100px;
+
+}
+
+footer{
+	width:50%;
+	background-color: pink;
+	height: 100px;
+}
+
+.body_text:hover{
+     color: red;
+
+}
+
+#second_paragraph{
+	display:none;
+}
+
+#pop_up{
+	display:none;
+	position:absolute;
+	top:10%;
+	left:10%;
+	width:500px;
+	height:500px;
+	background-color: white;
+	color:black;
+}
