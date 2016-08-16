@@ -1,0 +1,75 @@
+
+#myAwesomeToDoList{
+	width:510px;
+	margin-left:auto;
+	margin-right:auto;
+	padding:5px;
+	height:auto;
+	background-color:#2F2933;
+
+}
+
+#myAwesomeToDoList h1{
+	font-family: Helvetica, sans-serif;
+	text-align: center;
+	color:#FFFFFF;
+}
+
+#newTask{
+	width:445px;
+	height:35px;
+	background-color: #FFFFFF;
+	border: solid 3px #29D9C2;
+
+}
+
+#newTask:focus{
+	outline: none;
+}
+
+#addButton{
+	height: 43px;
+	width: 50px;
+	margin-top: 0px;
+	padding-top:3px;
+	float:right;
+	background-color: #BDF271;
+	border: 3px solid white;
+	font-family: Helvetica, sans-serif;
+	font-size: 14px;
+
+}
+
+#taskList{
+	margin-top: 30px;
+}
+
+.task p{
+	width: 400px;
+	height: 20px;
+	background-color: white;
+	margin:5px;
+	font-size:16px;
+	padding-top:3px;
+	padding-left:5px;
+	font-size: Helvetica, sans-serif;
+}
+
+#deleteButton{
+	height: 23px;
+	width:20px;
+	float:right;
+	margin-top:-28px;
+	margin-right: 5px;
+	background-color: #2F2933;
+	border:1px solid #BDF271;
+	color:white;
+	font-size: 15px;
+	padding: 0px;
+	cursor: pointer;
+
+}
+
+#deleteAll{
+	padding-top: 4px;
+}
